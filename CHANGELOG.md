@@ -1689,7 +1689,7 @@ notes [here](https://hackmd.io/TtyFurRJRKuklG3n8lMO9Q). This release is **strong
 Note: The released docker images are using the portable version of the blst cryptography library. The Prysm team will
 release docker images with the non-portable blst library as the default image. In the meantime, you can compile docker
 images with blst non-portable locally with the `--define=blst_modern=true` bazel flag, use the "-modern-" assets
-attached to releases, or set environment varaible USE_PRYSM_MODERN=true when using prysm.sh.
+attached to releases, or set environment variable USE_PRYSM_MODERN=true when using prysm.sh.
 
 ### Added
 
