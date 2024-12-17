@@ -2770,7 +2770,7 @@ notes [here](https://github.com/prysmaticlabs/prysm-web-ui/releases/tag/v1.0.0)
   Upstream go-ethereum is now used with familiar go.mod tooling.
 - Removed duplicate aggergation validation p2p pipelines.
 - Metrics calculation removed extra condition
-- Removed superflous errors from peer scoring parameters registration
+- Removed superfluous errors from peer scoring parameters registration
 
 ### Fixed
 
