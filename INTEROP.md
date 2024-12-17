@@ -74,7 +74,7 @@ bazel run //cmd/beacon-chain --config=minimal -- \
 This will start the system with 256 validators. The flags used can be explained as such:
 
 - `bazel run //cmd/beacon-chain --config=minimal` builds and runs the beacon node in minimal build configuration.
-- `--` is a flag divider to distingish between bazel flags and flags that should be passed to the application. All flags and arguments after this divider are passed to the beacon chain.
+- `--` is a flag divider to distinguish between bazel flags and flags that should be passed to the application. All flags and arguments after this divider are passed to the beacon chain.
 - `--minimal-config` tells the beacon node to use minimal network configuration. This is different from the compile time state configuration flag `--config=minimal` and both are required.
 - `--bootstrap-node=` disables the default bootstrap nodes. This prevents the client from attempting to peer with mainnet nodes.
 - `--datadir=/tmp/beacon-chain-minimal-devnet` sets the data directory in a temporary location. Change this to your preferred destination.
